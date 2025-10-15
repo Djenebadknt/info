@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Service Informatique - Accueil</title>
+<link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+    <header>
+      <h1>Informatique & Projets</h1>
+      <nav>
+        <a href="index2.html">Accueil</a>
+        <a href="Service.html">Services</a>
+      </nav>
+    </header>
+
+    
+<main>
+    <h2>Bienvenue chez Informatique & Projets</h2>
+    <p>Nous sommes spécialisés dans la gestion de projets informatiques et le conseil IT pour les entreprises.</p>
+    
+    <img src="D:\Users\ddiallo\Pictures\team.jpg" alt="Équipe Informatique & Projets" style="max-width:100%; height:auto; margin-top:20px;" />
+
+    <h3>Nos services principaux :</h3>
+    <ul>
+      <li>Gestion de projets</li>
+      <li>Développement logiciel</li>
+      <li>Support & maintenance</li>
+    </ul>
+  </main>
+  
+  <footer>
+    <p>Contactez-nous : contact@informatique-projets.com</p>
+  </footer>
+  <script>
+    window.addEventListener("scroll", function () {
+      let header = document.querySelector("header");
+      if (window.scrollY > 10) {
+        header.classList.add("scroll-active");
+      } else {
+        header.classList.remove("scroll-active");
+      }
+    });
+  </script>
+  </body>
+  </html>  
